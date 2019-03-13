@@ -1,0 +1,16 @@
+body {
+    min-width: 550px;
+}
+
+.noresize {
+    resize: none; 
+}
+
+.customLabel {
+    margin-right: 0.2em;
+}
+
+.customBtn {
+    margin-top: .25em;
+    margin-bottom: .25em;
+}

@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Maven Manual Dependencie Installer Converter",
+  "version": "1.0",
+  "description": "Convertir declaraciones de dependencies maven en los parámetros de instalacion por linea de consola.",
+  "minimum_chrome_version": "23",  
+  "content_security_policy": "default-src 'self'",
+  "icons": {
+    "16": "img/icono_16.png",
+    "128": "img/icono_128.png"
+  },
+   "browser_action": {
+      "default_title": "MAMADIC",
+      "default_icon": "img/icono_128.png",
+      "default_popup": "popup.html"
+  }
+}
